@@ -2,6 +2,11 @@ News Portal App
 
 ## 🚀 Live Preview => https://crud-news-app-project-vercel.vercel.app/
 
+[![Screenshot of CRUD News App](PREVIEW/MAIN_PAGE_SCREENSHOT.png)]
+[![Screenshot of CRUD News App](PREVIEW/HOME_PAGE_SCREENSHOT.png)]
+[![Screenshot of CRUD News App](PREVIEW/LOGIN_SCREENSHOT.png)]
+[![Screenshot of CRUD News App](PREVIEW/REGISTER_SCREENSHOT.png)]
+
 A responsive, animated news reader built with React, Tailwind CSS, and Framer Motion. Users can register, log in, and browse curated articles with smooth transitions, persistent read tracking, and accessibility-focused design.
 
 Features
@@ -10,14 +15,12 @@ Features
 - Persistent Read Tracking: Articles marked as read are hidden until reset, stored via localStorage.
 - Responsive Design: Tailwind CSS ensures clean layout across devices.
 - Accessibility: Keyboard-friendly forms, focus rings, and semantic HTML.
-- Dynamic Headline Width: Headlines animate based on the longest title for consistent layout.
+- Powered by Vercel’s serverless functions for scalable backend logic and fast deployment.
 
 Installation
 git clone https://github.com/mwenya-mwenya/crud-news-app-project-vercel.git
 npm install
 npm start
-
-Make sure your backend is running at http://localhost:4000/api or update the API constant in App.jsx.
 
 Usage
 - Register or log in to access the news feed.
