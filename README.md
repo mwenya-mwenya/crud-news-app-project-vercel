@@ -26,7 +26,7 @@ Usage
 - Use “Show read articles” to reset visibility.
 - 
 Folder Structure
-project-root/
+<pre>```textproject-root/
 ├── .vercel/
 ├── api/
 ├── components/
@@ -73,7 +73,7 @@ project-root/
 ├── sample.env
 ├── tailwind.config.js
 ├── vercel.json
-└── vite.config.js
+└── vite.config.js```</pre>
 
 Design Philosophy
 This project emphasizes clarity, fairness, and user empowerment. It uses modular layout, animated transitions, and persistent state to create a polished experience that respects user intent.
