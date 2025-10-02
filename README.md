@@ -26,7 +26,7 @@ Usage
 - Use “Show read articles” to reset visibility.
 - 
 Folder Structure
-<pre>```textproject-root/
+<pre>```project-root/
 ├── .vercel/
 ├── api/
 ├── components/
