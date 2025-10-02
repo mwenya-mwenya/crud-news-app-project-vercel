@@ -24,7 +24,7 @@ Usage
 - Click headlines to expand summaries.
 - Mark articles as read to hide them.
 - Use “Show read articles” to reset visibility.
-- 
+  
 Folder Structure
 <pre>```project-root/
 ├── .vercel/
