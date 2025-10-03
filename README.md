@@ -2,10 +2,10 @@ News Portal App
 
 ## 🚀 Live Preview => https://crud-news-app-project-vercel.vercel.app/
 
-[![Screenshot of CRUD News App](PREVIEW/MAIN_PAGE_SCREENSHOT.png)]
-[![Screenshot of CRUD News App](PREVIEW/HOME_PAGE_SCREENSHOT.png)]
-[![Screenshot of CRUD News App](PREVIEW/LOGIN_SCREENSHOT.png)]
-[![Screenshot of CRUD News App](PREVIEW/REGISTER_SCREENSHOT.png)]
+[![Screenshot of CRUD News App](PREVIEW/MAIN_PAGE_SCREENSHOT.png)](https://crud-news-app-project-vercel.vercel.app/)
+[![Screenshot of CRUD News App](PREVIEW/HOME_PAGE_SCREENSHOT.png)](https://crud-news-app-project-vercel.vercel.app/)
+[![Screenshot of CRUD News App](PREVIEW/LOGIN_SCREENSHOT.png)](https://crud-news-app-project-vercel.vercel.app/)
+[![Screenshot of CRUD News App](PREVIEW/REGISTER_SCREENSHOT.png)](https://crud-news-app-project-vercel.vercel.app/)
 
 A responsive, animated news reader built with React, Tailwind CSS, and Framer Motion. Users can register, log in, and browse curated articles with smooth transitions, persistent read tracking, and accessibility-focused design.
 
@@ -32,21 +32,26 @@ Folder Structure
 <pre>```project-root/
 ├── .vercel/
 ├── api/
-├── components/
-├── dist/
-├── lib/
-├── public/
-├── src/
 │   ├── auth/
 │   │   ├── news.js
 │   │   ├── login.js
-│   │   └── register.js
+│   │   └── register.js  
+│   └── news.js
+├── components/
 │   ├── login.jsx
-│   ├── registration.jsx
+│   └── registration.jsx
+├── dist/
+├── src/
 │   ├── assets/
+│   │   └── react.svg
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └──  main.jsx
+├── lib/
 │   ├── config/
 │   │   └── env.js
-│   ├── db/
+|   └── db/
 │   │   └── connect.js
 │   ├── middleware/
 │   │   └── auth.js
@@ -55,17 +60,12 @@ Folder Structure
 │   │   └── User.js
 │   ├── services/
 │   │   └── newsService.js
-│   ├── validators/
-│   │   ├── articles.js
-│   │   ├── auth.js
-│   │   └── error.js
-│   ├── vite.svg
-│   ├── assets/
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   ├── main.jsx
-│   └── react.svg
+│   └── validators/
+│      ├── articles.js
+│      ├── auth.js
+│      └── error.js
+├── public/
+│   └── vite.svg
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
